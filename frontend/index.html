@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Hide SEO fallback from normal users (JS-enabled) to prevent flash -->
+    <style>
+      .seo-fallback { display: none !important; }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <!-- SEO fallback content for crawlers/no-JS visitors only -->
+      <div class="seo-fallback">
+        <header>
+          <h1>AfryStride — Kenyan Sportswear & Sneakers</h1>
+        </header>
+        <main>
+          <p>
+            AfryStride is a Nairobi-based sportswear and sneaker store, offering
+            premium athletic wear and footwear designed for everyday movement.
+            Browse our collection of sneakers, activewear, and streetwear, with
+            fast delivery across Kenya and secure M-Pesa payment.
+          </p>
+          <nav aria-label="Main">
+            <a href="/shop">Shop All Products</a>
+            <a href="/about">About AfryStride</a>
+            <a href="/contact">Contact Us</a>
+          </nav>
+        </main>
+        <footer>
+          <p>
+            Website designed and developed by
+            <a href="https://savannadesignsagency.com" target="_blank" rel="noopener">Savanna Designs</a>.
+          </p>
+        </footer>
+      </div>
+    </div>
+
+    <noscript>
+      <!-- Show fallback when JavaScript is disabled -->
+      <style>
+        .seo-fallback { display: block !important; }
+      </style>
+      <p>
+        AfryStride requires JavaScript to display our full shop experience.
+        Please enable JavaScript in your browser to continue.
+      </p>
+    </noscript>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
